@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Club Legacy</title>
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Configuração PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#080e17">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <header class="main-header">
+            <h1>CLUB LEGACY</h1>
+        </header>
+
+        <section class="last-save">
+
+            <h2>ÚLTIMA CARREIRA</h2>
+
+            <div id="last-save-info">
+                <p>Nenhuma carreira encontrada</p>
+            </div>
+
+            <button id="continue-button">
+                Continuar carreira
+            </button>
+
+        </section>
+
+        <nav class="menu-options">
+
+            <button onclick="window.location.href='pages/selecionar-clube.html'">
+                Nova carreira
+            </button>
+
+            <button id="load-career">
+                Carregar carreira
+            </button>
+
+            <button id="settings">
+                ⚙ Configurações
+            </button>
+
+        </nav>
+
+    </main>
+
+    <!-- Registrar aplicativo PWA -->
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("./service-worker.js")
+                    .catch(error => {
+                        console.error("Erro ao registrar PWA:", error);
+                    });
+            });
+        }
+    </script>
+
+</body>
+</html>

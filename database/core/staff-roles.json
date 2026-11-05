@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "roles": [
+    {"id": "manager", "name": "Treinador principal"},
+    {"id": "assistant_manager", "name": "Auxiliar técnico"},
+    {"id": "fitness_coach", "name": "Preparador físico"},
+    {"id": "goalkeeping_coach", "name": "Treinador de goleiros"},
+    {"id": "technical_coach", "name": "Treinador técnico"},
+    {"id": "tactical_coach", "name": "Treinador tático"},
+    {"id": "youth_coach", "name": "Treinador da base"},
+    {"id": "head_scout", "name": "Chefe de observação"},
+    {"id": "scout", "name": "Olheiro"},
+    {"id": "analyst", "name": "Analista de desempenho"},
+    {"id": "data_analyst", "name": "Analista de dados"},
+    {"id": "physiotherapist", "name": "Fisioterapeuta"},
+    {"id": "doctor", "name": "Médico"},
+    {"id": "sporting_director", "name": "Diretor de futebol"},
+    {"id": "general_director", "name": "Diretor geral"},
+    {"id": "academy_director", "name": "Diretor da base"},
+    {"id": "goalkeeping_head", "name": "Coordenador de goleiros"}
+  ]
+}

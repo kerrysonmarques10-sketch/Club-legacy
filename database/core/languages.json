@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "languages": [
+    {"id": "pt", "name": "Português"},
+    {"id": "en", "name": "Inglês"},
+    {"id": "es", "name": "Espanhol"},
+    {"id": "fr", "name": "Francês"},
+    {"id": "de", "name": "Alemão"},
+    {"id": "it", "name": "Italiano"},
+    {"id": "nl", "name": "Holandês"},
+    {"id": "ar", "name": "Árabe"},
+    {"id": "ja", "name": "Japonês"},
+    {"id": "ko", "name": "Coreano"},
+    {"id": "zh", "name": "Chinês"},
+    {"id": "ru", "name": "Russo"},
+    {"id": "tr", "name": "Turco"},
+    {"id": "hr", "name": "Croata"},
+    {"id": "sr", "name": "Sérvio"},
+    {"id": "sw", "name": "Suaíli"}
+  ]
+}

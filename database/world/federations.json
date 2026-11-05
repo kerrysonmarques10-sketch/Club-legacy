@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "federations": [
+    {
+      "id": "federation-bra",
+      "name": "Confederação Brasileira de Futebol",
+      "short_name": "CBF",
+      "country_id": "bra",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-arg",
+      "name": "Asociación del Fútbol Argentino",
+      "short_name": "AFA",
+      "country_id": "arg",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-uru",
+      "name": "Asociación Uruguaya de Fútbol",
+      "short_name": "AUF",
+      "country_id": "uru",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-chi",
+      "name": "Federación de Fútbol de Chile",
+      "short_name": "FFCh",
+      "country_id": "chi",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-col",
+      "name": "Federación Colombiana de Fútbol",
+      "short_name": "FCF",
+      "country_id": "col",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-par",
+      "name": "Asociación Paraguaya de Fútbol",
+      "short_name": "APF",
+      "country_id": "par",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-per",
+      "name": "Federación Peruana de Fútbol",
+      "short_name": "FPF",
+      "country_id": "per",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-ecu",
+      "name": "Federación Ecuatoriana de Fútbol",
+      "short_name": "FEF",
+      "country_id": "ecu",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-bol",
+      "name": "Federación Boliviana de Fútbol",
+      "short_name": "FBF",
+      "country_id": "bol",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-ven",
+      "name": "Federación Venezolana de Fútbol",
+      "short_name": "FVF",
+      "country_id": "ven",
+      "confederation_id": "conmebol"
+    },
+    {
+      "id": "federation-guy",
+      "name": "Guyana Football Federation",
+      "short_name": "GFF",
+      "country_id": "guy",
+      "confederation_id": "concacaf"
+    },
+    {
+      "id": "federation-sur",
+      "name": "Surinaamse Voetbal Bond",
+      "short_name": "SVB",
+      "country_id": "sur",
+      "confederation_id": "concacaf"
+    },
+    {
+      "id": "federation-eng",
+      "name": "The Football Association",
+      "short_name": "FA",
+      "country_id": "eng",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-esp",
+      "name": "Real Federación Española de Fútbol",
+      "short_name": "RFEF",
+      "country_id": "esp",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-ger",
+      "name": "Deutscher Fußball-Bund",
+      "short_name": "DFB",
+      "country_id": "ger",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-ita",
+      "name": "Federazione Italiana Giuoco Calcio",
+      "short_name": "FIGC",
+      "country_id": "ita",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-fra",
+      "name": "Fédération Française de Football",
+      "short_name": "FFF",
+      "country_id": "fra",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-por",
+      "name": "Federação Portuguesa de Futebol",
+      "short_name": "FPF",
+      "country_id": "por",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-ned",
+      "name": "Koninklijke Nederlandse Voetbalbond",
+      "short_name": "KNVB",
+      "country_id": "ned",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-bel",
+      "name": "Royal Belgian Football Association",
+      "short_name": "RBFA",
+      "country_id": "bel",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-sco",
+      "name": "Scottish Football Association",
+      "short_name": "SFA",
+      "country_id": "sco",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-irl",
+      "name": "Football Association of Ireland",
+      "short_name": "FAI",
+      "country_id": "irl",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-rus",
+      "name": "Russian Football Union",
+      "short_name": "RFU",
+      "country_id": "rus",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-tur",
+      "name": "Türkiye Futbol Federasyonu",
+      "short_name": "TFF",
+      "country_id": "tur",
+      "confederation_id": "uefa"
+    },
+    {
+      "id": "federation-usa",
+      "name": "United States Soccer Federation",
+      "short_name": "USSF",
+      "country_id": "usa",
+      "confederation_id": "concacaf"
+    },
+    {
+      "id": "federation-can",
+      "name": "Canada Soccer",
+      "short_name": "Canada Soccer",
+      "country_id": "can",
+      "confederation_id": "concacaf"
+    },
+    {
+      "id": "federation-mex",
+      "name": "Federación Mexicana de Fútbol",
+      "short_name": "FMF",
+      "country_id": "mex",
+      "confederation_id": "concacaf"
+    },
+    {
+      "id": "federation-jpn",
+      "name": "Japan Football Association",
+      "short_name": "JFA",
+      "country_id": "jpn",
+      "confederation_id": "afc"
+    },
+    {
+      "id": "federation-kor",
+      "name": "Korea Football Association",
+      "short_name": "KFA",
+      "country_id": "kor",
+      "confederation_id": "afc"
+    },
+    {
+      "id": "federation-chn",
+      "name": "Chinese Football Association",
+      "short_name": "CFA",
+      "country_id": "chn",
+      "confederation_id": "afc"
+    },
+    {
+      "id": "federation-sau",
+      "name": "Saudi Arabian Football Federation",
+      "short_name": "SAFF",
+      "country_id": "sau",
+      "confederation_id": "afc"
+    },
+    {
+      "id": "federation-aus",
+      "name": "Football Australia",
+      "short_name": "FA",
+      "country_id": "aus",
+      "confederation_id": "afc"
+    },
+    {
+      "id": "federation-mar",
+      "name": "Fédération Royale Marocaine de Football",
+      "short_name": "FRMF",
+      "country_id": "mar",
+      "confederation_id": "caf"
+    },
+    {
+      "id": "federation-egy",
+      "name": "Egyptian Football Association",
+      "short_name": "EFA",
+      "country_id": "egy",
+      "confederation_id": "caf"
+    },
+    {
+      "id": "federation-nga",
+      "name": "Nigeria Football Federation",
+      "short_name": "NFF",
+      "country_id": "nga",
+      "confederation_id": "caf"
+    },
+    {
+      "id": "federation-sen",
+      "name": "Fédération Sénégalaise de Football",
+      "short_name": "FSF",
+      "country_id": "sen",
+      "confederation_id": "caf"
+    },
+    {
+      "id": "federation-rsa",
+      "name": "South African Football Association",
+      "short_name": "SAFA",
+      "country_id": "rsa",
+      "confederation_id": "caf"
+    },
+    {
+      "id": "federation-nzl",
+      "name": "New Zealand Football",
+      "short_name": "NZF",
+      "country_id": "nzl",
+      "confederation_id": "ofc"
+    },
+    {
+      "id": "federation-fij",
+      "name": "Fiji Football Association",
+      "short_name": "FFA",
+      "country_id": "fij",
+      "confederation_id": "ofc"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "club_logos": [
+    {
+      "id": "athletico-paranaense-primary-logo",
+      "club_id": "athletico-paranaense",
+      "asset_id": "club-logo-athletico-paranaense",
+      "is_primary": true
+    },
+    {
+      "id": "atletico-mineiro-primary-logo",
+      "club_id": "atletico-mineiro",
+      "asset_id": "club-logo-atletico-mineiro",
+      "is_primary": true
+    },
+    {
+      "id": "bahia-primary-logo",
+      "club_id": "bahia",
+      "asset_id": "club-logo-bahia",
+      "is_primary": true
+    },
+    {
+      "id": "botafogo-primary-logo",
+      "club_id": "botafogo",
+      "asset_id": "club-logo-botafogo",
+      "is_primary": true
+    },
+    {
+      "id": "chapecoense-primary-logo",
+      "club_id": "chapecoense",
+      "asset_id": "club-logo-chapecoense",
+      "is_primary": true
+    },
+    {
+      "id": "remo-primary-logo",
+      "club_id": "remo",
+      "asset_id": "club-logo-remo",
+      "is_primary": true
+    },
+    {
+      "id": "corinthians-primary-logo",
+      "club_id": "corinthians",
+      "asset_id": "club-logo-corinthians",
+      "is_primary": true
+    },
+    {
+      "id": "coritiba-primary-logo",
+      "club_id": "coritiba",
+      "asset_id": "club-logo-coritiba",
+      "is_primary": true
+    },
+    {
+      "id": "cruzeiro-primary-logo",
+      "club_id": "cruzeiro",
+      "asset_id": "club-logo-cruzeiro",
+      "is_primary": true
+    },
+    {
+      "id": "flamengo-primary-logo",
+      "club_id": "flamengo",
+      "asset_id": "club-logo-flamengo",
+      "is_primary": true
+    },
+    {
+      "id": "fluminense-primary-logo",
+      "club_id": "fluminense",
+      "asset_id": "club-logo-fluminense",
+      "is_primary": true
+    },
+    {
+      "id": "gremio-primary-logo",
+      "club_id": "gremio",
+      "asset_id": "club-logo-gremio",
+      "is_primary": true
+    },
+    {
+      "id": "mirassol-primary-logo",
+      "club_id": "mirassol",
+      "asset_id": "club-logo-mirassol",
+      "is_primary": true
+    },
+    {
+      "id": "palmeiras-primary-logo",
+      "club_id": "palmeiras",
+      "asset_id": "club-logo-palmeiras",
+      "is_primary": true
+    },
+    {
+      "id": "red-bull-bragantino-primary-logo",
+      "club_id": "red-bull-bragantino",
+      "asset_id": "club-logo-red-bull-bragantino",
+      "is_primary": true
+    },
+    {
+      "id": "internacional-primary-logo",
+      "club_id": "internacional",
+      "asset_id": "club-logo-internacional",
+      "is_primary": true
+    },
+    {
+      "id": "santos-primary-logo",
+      "club_id": "santos",
+      "asset_id": "club-logo-santos",
+      "is_primary": true
+    },
+    {
+      "id": "sao-paulo-primary-logo",
+      "club_id": "sao-paulo",
+      "asset_id": "club-logo-sao-paulo",
+      "is_primary": true
+    },
+    {
+      "id": "vasco-da-gama-primary-logo",
+      "club_id": "vasco-da-gama",
+      "asset_id": "club-logo-vasco-da-gama",
+      "is_primary": true
+    },
+    {
+      "id": "vitoria-primary-logo",
+      "club_id": "vitoria",
+      "asset_id": "club-logo-vitoria",
+      "is_primary": true
+    }
+  ]
+}

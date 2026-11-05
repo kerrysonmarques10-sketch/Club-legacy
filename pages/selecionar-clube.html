@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionar Clube | Club Legacy</title>
+    <link rel="stylesheet" href="../styles/selecao-clube.css">
+</head>
+
+<body>
+
+<main class="club-selection">
+
+    <section class="selection-content">
+
+        <aside class="filters-panel">
+
+            <div class="filter-group">
+                <div class="custom-dropdown">
+
+                    <button type="button" id="continent-button" class="dropdown-button">
+                        <span id="continent-button-label">Continentes</span>
+                        <span>▼</span>
+                    </button>
+
+                    <div id="continent-options" class="dropdown-options" hidden></div>
+
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <select id="division-filter">
+                    <option value="">Todas as divisões</option>
+                </select>
+            </div>
+
+        </aside>
+
+        <div class="main-selection-area">
+            <section class="clubs-panel">
+                <div class="clubs-list" id="clubs-list"></div>
+            </section>
+        </div>
+
+    </section>
+
+    <footer class="selection-footer">
+        <button type="button" id="advance-button" class="footer-button advance">
+            Avançar
+        </button>
+
+        <button type="button" id="cancel-button" class="footer-button cancel">
+            Cancelar
+        </button>
+    </footer>
+
+</main>
+
+<script src="../scripts/selecao-clube.js"></script>
+
+</body>
+</html>

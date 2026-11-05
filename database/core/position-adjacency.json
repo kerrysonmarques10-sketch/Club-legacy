@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "adjacencies": [
+    {"position": "GK", "related": []},
+    {"position": "CB", "related": ["LB", "RB", "CDM"]},
+    {"position": "LB", "related": ["CB", "LWB", "LM"]},
+    {"position": "RB", "related": ["CB", "RWB", "RM"]},
+    {"position": "LWB", "related": ["LB", "LM", "LW"]},
+    {"position": "RWB", "related": ["RB", "RM", "RW"]},
+    {"position": "CDM", "related": ["CB", "CM"]},
+    {"position": "CM", "related": ["CDM", "CAM", "LM", "RM"]},
+    {"position": "LM", "related": ["LB", "LWB", "CM", "LW"]},
+    {"position": "RM", "related": ["RB", "RWB", "CM", "RW"]},
+    {"position": "CAM", "related": ["CM", "SA", "LW", "RW"]},
+    {"position": "LW", "related": ["LM", "LWB", "CAM", "RW", "SA"]},
+    {"position": "RW", "related": ["RM", "RWB", "CAM", "LW", "SA"]},
+    {"position": "SA", "related": ["CAM", "ST", "LW", "RW"]},
+    {"position": "ST", "related": ["SA"]}
+  ]
+}

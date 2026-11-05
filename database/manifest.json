@@ -1,0 +1,24 @@
+
+{
+  "id": "club-legacy-base",
+  "name": "CLUB LEGACY Base Database",
+  "version": "1.0.0",
+  "schema_version": 1,
+  "description": "Base de dados principal do CLUB LEGACY.",
+  "default_language": "pt-BR",
+  "default_country_id": "bra",
+  "modules": [
+    "core",
+    "world",
+    "people",
+    "clubs",
+    "competitions",
+    "international",
+    "officials",
+    "economy",
+    "rules",
+    "media",
+    "history",
+    "awards"
+  ]
+}

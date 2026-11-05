@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "levels": [
+    {"id": "unknown", "name": "Desconhecido", "min": 0, "max": 9},
+    {"id": "local", "name": "Local", "min": 10, "max": 19},
+    {"id": "regional", "name": "Regional", "min": 20, "max": 34},
+    {"id": "national", "name": "Nacional", "min": 35, "max": 49},
+    {"id": "continental", "name": "Continental", "min": 50, "max": 64},
+    {"id": "international", "name": "Internacional", "min": 65, "max": 79},
+    {"id": "world_class", "name": "Classe mundial", "min": 80, "max": 89},
+    {"id": "legendary", "name": "Lendário", "min": 90, "max": 99}
+  ]
+}

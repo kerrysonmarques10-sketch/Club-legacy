@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "cities": [
+    {"id": "rio-de-janeiro", "name": "Rio de Janeiro", "country_id": "bra", "region_id": "br-rj"},
+    {"id": "sao-paulo", "name": "São Paulo", "country_id": "bra", "region_id": "br-sp"},
+    {"id": "belo-horizonte", "name": "Belo Horizonte", "country_id": "bra", "region_id": "br-mg"},
+    {"id": "porto-alegre", "name": "Porto Alegre", "country_id": "bra", "region_id": "br-rs"},
+    {"id": "curitiba", "name": "Curitiba", "country_id": "bra", "region_id": "br-pr"},
+    {"id": "salvador", "name": "Salvador", "country_id": "bra", "region_id": "br-ba"},
+    {"id": "recife", "name": "Recife", "country_id": "bra", "region_id": "br-pe"},
+    {"id": "fortaleza", "name": "Fortaleza", "country_id": "bra", "region_id": "br-ce"},
+    {"id": "brasilia", "name": "Brasília", "country_id": "bra", "region_id": "br-df"},
+    {"id": "goiania", "name": "Goiânia", "country_id": "bra", "region_id": "br-go"},
+    {"id": "belem", "name": "Belém", "country_id": "bra", "region_id": "br-pa"},
+    {"id": "manaus", "name": "Manaus", "country_id": "bra", "region_id": "br-am"},
+    {"id": "florianopolis", "name": "Florianópolis", "country_id": "bra", "region_id": "br-sc"},
+    {"id": "natal", "name": "Natal", "country_id": "bra", "region_id": "br-rn"},
+    {"id": "joao-pessoa", "name": "João Pessoa", "country_id": "bra", "region_id": "br-pb"},
+    {"id": "maceio", "name": "Maceió", "country_id": "bra", "region_id": "br-al"},
+    {"id": "teresina", "name": "Teresina", "country_id": "bra", "region_id": "br-pi"},
+    {"id": "aracaju", "name": "Aracaju", "country_id": "bra", "region_id": "br-se"},
+    {"id": "campo-grande", "name": "Campo Grande", "country_id": "bra", "region_id": "br-ms"},
+    {"id": "cuiaba", "name": "Cuiabá", "country_id": "bra", "region_id": "br-mt"},
+    {"id": "vitoria", "name": "Vitória", "country_id": "bra", "region_id": "br-es"},
+    {"id": "sao-luis", "name": "São Luís", "country_id": "bra", "region_id": "br-ma"},
+    {"id": "palmas", "name": "Palmas", "country_id": "bra", "region_id": "br-to"},
+    {"id": "porto-velho", "name": "Porto Velho", "country_id": "bra", "region_id": "br-ro"},
+    {"id": "macapa", "name": "Macapá", "country_id": "bra", "region_id": "br-ap"},
+    {"id": "boa-vista", "name": "Boa Vista", "country_id": "bra", "region_id": "br-rr"},
+    {"id": "rio-branco", "name": "Rio Branco", "country_id": "bra", "region_id": "br-ac"}
+  ]
+}

@@ -1,0 +1,345 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #080e17;
+    --panel: #172638;
+    --border: #344b64;
+    --text: #ffffff;
+    --muted: #aebed0;
+    --blue: #65adf5;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
+
+.manager-container {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 15px;
+}
+
+/* CABEÇALHO */
+
+.manager-header {
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.club-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.club-info span {
+    color: #8494a8;
+    font-size: 8px;
+}
+
+.club-info strong {
+    color: var(--blue);
+    font-size: 10px;
+}
+
+/* CONTEÚDO */
+
+.manager-content {
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 115px;
+    gap: 15px;
+    align-items: start;
+    padding: 10px 5px;
+}
+
+.manager-form {
+    min-width: 0;
+}
+
+.fields-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    column-gap: 10px;
+    row-gap: 9px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+}
+
+.form-group label {
+    color: var(--muted);
+    font-size: 8px;
+}
+
+.form-group input,
+.form-group select,
+.custom-select-button {
+    width: 150px;
+    height: 21px;
+    padding: 0 5px;
+    background: var(--panel);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    outline: none;
+    font-size: 8px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.custom-select-button:focus {
+    border-color: var(--blue);
+}
+
+.form-group select option {
+    background: var(--panel);
+}
+
+/* MENUS PERSONALIZADOS */
+
+.custom-select {
+    position: relative;
+    width: 150px;
+}
+
+.custom-select-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.select-arrow {
+    color: #8fa9c3;
+    font-size: 7px;
+}
+
+.custom-select-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 130px;
+    overflow-y: auto;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    z-index: 100;
+}
+
+.custom-select.open .custom-select-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-select-options button {
+    width: 100%;
+    min-height: 23px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.custom-select-options button:hover {
+    background: #294765;
+}
+
+/* FOTO */
+
+.manager-photo-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.photo-placeholder {
+    width: 75px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--panel);
+    border: 1px solid #455b73;
+}
+
+.photo-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-placeholder span {
+    font-size: 28px;
+}
+
+.photo-button {
+    padding: 4px 7px;
+    background: #263c55;
+    color: var(--text);
+    border-radius: 2px;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+
+.manager-footer {
+    height: 35px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    border-top: 1px solid #29394d;
+}
+
+.manager-footer button,
+#close-manager-modal {
+    padding: 6px 17px;
+    border: none;
+    border-radius: 2px;
+    font-size: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#back-button,
+#close-manager-modal {
+    background: #29394d;
+    color: var(--text);
+}
+
+#saved-manager-button {
+    background: #294d70;
+    color: var(--text);
+}
+
+#create-button {
+    background: #187d4a;
+    color: var(--text);
+}
+
+/* MODAL DE TÉCNICOS */
+
+.saved-manager-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.saved-manager-modal[hidden] {
+    display: none;
+}
+
+.saved-manager-window {
+    width: 100%;
+    max-width: 420px;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 20px;
+    background: #101d2c;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+.saved-manager-window h2 {
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.saved-manager-window p {
+    margin-bottom: 15px;
+    color: #9aacc0;
+    font-size: 12px;
+}
+
+#saved-manager-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 15px;
+}
+
+.saved-manager-option {
+    width: 100%;
+    padding: 11px;
+    background: #1b2d41;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    color: var(--text);
+    text-align: left;
+    cursor: pointer;
+}
+
+.saved-manager-option strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.saved-manager-option span {
+    color: #9aacc0;
+    font-size: 10px;
+}
+
+#close-manager-modal {
+    padding: 7px 15px;
+}
+
+/* TELAS COM POUCA ALTURA */
+
+@media (max-height: 450px) {
+    .manager-content {
+        padding-top: 5px;
+    }
+
+    .fields-grid {
+        row-gap: 6px;
+    }
+
+    .photo-placeholder {
+        width: 65px;
+        height: 75px;
+    }
+
+    .manager-footer {
+        height: 30px;
+    }
+}

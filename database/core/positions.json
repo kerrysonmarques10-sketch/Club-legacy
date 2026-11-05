@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "positions": [
+    {"id": "GK", "name": "Goleiro", "category": "goalkeeper"},
+    {"id": "CB", "name": "Zagueiro", "category": "defender"},
+    {"id": "LB", "name": "Lateral esquerdo", "category": "defender"},
+    {"id": "RB", "name": "Lateral direito", "category": "defender"},
+    {"id": "LWB", "name": "Ala esquerdo", "category": "defender"},
+    {"id": "RWB", "name": "Ala direito", "category": "defender"},
+    {"id": "CDM", "name": "Volante", "category": "midfielder"},
+    {"id": "CM", "name": "Meio-campista central", "category": "midfielder"},
+    {"id": "LM", "name": "Meia esquerdo", "category": "midfielder"},
+    {"id": "RM", "name": "Meia direito", "category": "midfielder"},
+    {"id": "CAM", "name": "Meia ofensivo central", "category": "attacking_midfielder"},
+    {"id": "LW", "name": "Ponta esquerda", "category": "attacker"},
+    {"id": "RW", "name": "Ponta direita", "category": "attacker"},
+    {"id": "SA", "name": "Segundo atacante", "category": "attacker"},
+    {"id": "ST", "name": "Centroavante", "category": "attacker"}
+  ]
+}

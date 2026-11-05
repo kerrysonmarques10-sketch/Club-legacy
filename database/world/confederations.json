@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "confederations": [
+    {
+      "id": "fifa",
+      "name": "FIFA",
+      "full_name": "Federação Internacional de Futebol",
+      "type": "world"
+    },
+    {
+      "id": "conmebol",
+      "name": "CONMEBOL",
+      "full_name": "Confederação Sul-Americana de Futebol",
+      "type": "continental",
+      "continent_id": "south_america"
+    },
+    {
+      "id": "uefa",
+      "name": "UEFA",
+      "full_name": "União das Associações Europeias de Futebol",
+      "type": "continental",
+      "continent_id": "europe"
+    },
+    {
+      "id": "caf",
+      "name": "CAF",
+      "full_name": "Confederação Africana de Futebol",
+      "type": "continental",
+      "continent_id": "africa"
+    },
+    {
+      "id": "afc",
+      "name": "AFC",
+      "full_name": "Confederação Asiática de Futebol",
+      "type": "continental",
+      "continent_id": "asia"
+    },
+    {
+      "id": "concacaf",
+      "name": "CONCACAF",
+      "full_name": "Confederação de Futebol da América do Norte, Central e Caribe",
+      "type": "continental",
+      "continent_id": "north_america"
+    },
+    {
+      "id": "ofc",
+      "name": "OFC",
+      "full_name": "Confederação de Futebol da Oceania",
+      "type": "continental",
+      "continent_id": "oceania"
+    }
+  ]
+}

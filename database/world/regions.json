@@ -1,0 +1,33 @@
+
+{
+  "version": 1,
+  "regions": [
+    {"id": "br-ac", "name": "Acre", "country_id": "bra", "type": "state", "code": "AC"},
+    {"id": "br-al", "name": "Alagoas", "country_id": "bra", "type": "state", "code": "AL"},
+    {"id": "br-ap", "name": "Amapá", "country_id": "bra", "type": "state", "code": "AP"},
+    {"id": "br-am", "name": "Amazonas", "country_id": "bra", "type": "state", "code": "AM"},
+    {"id": "br-ba", "name": "Bahia", "country_id": "bra", "type": "state", "code": "BA"},
+    {"id": "br-ce", "name": "Ceará", "country_id": "bra", "type": "state", "code": "CE"},
+    {"id": "br-df", "name": "Distrito Federal", "country_id": "bra", "type": "state", "code": "DF"},
+    {"id": "br-es", "name": "Espírito Santo", "country_id": "bra", "type": "state", "code": "ES"},
+    {"id": "br-go", "name": "Goiás", "country_id": "bra", "type": "state", "code": "GO"},
+    {"id": "br-ma", "name": "Maranhão", "country_id": "bra", "type": "state", "code": "MA"},
+    {"id": "br-mt", "name": "Mato Grosso", "country_id": "bra", "type": "state", "code": "MT"},
+    {"id": "br-ms", "name": "Mato Grosso do Sul", "country_id": "bra", "type": "state", "code": "MS"},
+    {"id": "br-mg", "name": "Minas Gerais", "country_id": "bra", "type": "state", "code": "MG"},
+    {"id": "br-pa", "name": "Pará", "country_id": "bra", "type": "state", "code": "PA"},
+    {"id": "br-pb", "name": "Paraíba", "country_id": "bra", "type": "state", "code": "PB"},
+    {"id": "br-pr", "name": "Paraná", "country_id": "bra", "type": "state", "code": "PR"},
+    {"id": "br-pe", "name": "Pernambuco", "country_id": "bra", "type": "state", "code": "PE"},
+    {"id": "br-pi", "name": "Piauí", "country_id": "bra", "type": "state", "code": "PI"},
+    {"id": "br-rj", "name": "Rio de Janeiro", "country_id": "bra", "type": "state", "code": "RJ"},
+    {"id": "br-rn", "name": "Rio Grande do Norte", "country_id": "bra", "type": "state", "code": "RN"},
+    {"id": "br-rs", "name": "Rio Grande do Sul", "country_id": "bra", "type": "state", "code": "RS"},
+    {"id": "br-ro", "name": "Rondônia", "country_id": "bra", "type": "state", "code": "RO"},
+    {"id": "br-rr", "name": "Roraima", "country_id": "bra", "type": "state", "code": "RR"},
+    {"id": "br-sc", "name": "Santa Catarina", "country_id": "bra", "type": "state", "code": "SC"},
+    {"id": "br-sp", "name": "São Paulo", "country_id": "bra", "type": "state", "code": "SP"},
+    {"id": "br-se", "name": "Sergipe", "country_id": "bra", "type": "state", "code": "SE"},
+    {"id": "br-to", "name": "Tocantins", "country_id": "bra", "type": "state", "code": "TO"}
+  ]
+}

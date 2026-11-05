@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "media_assets": [
+    {
+      "id": "club-logo-athletico-paranaense",
+      "type": "club_logo",
+      "path": "assets/clubs/athletico-paranaense.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Athletico Paranaense",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-atletico-mineiro",
+      "type": "club_logo",
+      "path": "assets/clubs/atletico-mineiro.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Atlético Mineiro",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-bahia",
+      "type": "club_logo",
+      "path": "assets/clubs/bahia.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Bahia",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-botafogo",
+      "type": "club_logo",
+      "path": "assets/clubs/botafogo.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Botafogo",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-chapecoense",
+      "type": "club_logo",
+      "path": "assets/clubs/chapecoense.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Chapecoense",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-remo",
+      "type": "club_logo",
+      "path": "assets/clubs/remo.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Remo",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-corinthians",
+      "type": "club_logo",
+      "path": "assets/clubs/corinthians.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Corinthians",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-coritiba",
+      "type": "club_logo",
+      "path": "assets/clubs/coritiba.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Coritiba",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-cruzeiro",
+      "type": "club_logo",
+      "path": "assets/clubs/cruzeiro.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Cruzeiro",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-flamengo",
+      "type": "club_logo",
+      "path": "assets/clubs/flamengo.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Flamengo",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-fluminense",
+      "type": "club_logo",
+      "path": "assets/clubs/fluminense.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Fluminense",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-gremio",
+      "type": "club_logo",
+      "path": "assets/clubs/gremio.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Grêmio",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-mirassol",
+      "type": "club_logo",
+      "path": "assets/clubs/mirassol.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Mirassol",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-palmeiras",
+      "type": "club_logo",
+      "path": "assets/clubs/palmeiras.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Palmeiras",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-red-bull-bragantino",
+      "type": "club_logo",
+      "path": "assets/clubs/red-bull-bragantino.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Red Bull Bragantino",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-internacional",
+      "type": "club_logo",
+      "path": "assets/clubs/internacional.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Internacional",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-santos",
+      "type": "club_logo",
+      "path": "assets/clubs/santos.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Santos",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-sao-paulo",
+      "type": "club_logo",
+      "path": "assets/clubs/sao-paulo.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do São Paulo",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-vasco-da-gama",
+      "type": "club_logo",
+      "path": "assets/clubs/vasco-da-gama.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Vasco da Gama",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    },
+    {
+      "id": "club-logo-vitoria",
+      "type": "club_logo",
+      "path": "assets/clubs/vitoria.png",
+      "mime_type": "image/png",
+      "alt": "Escudo do Vitória",
+      "source": "FootyLogos",
+      "source_url": "https://www.footylogos.com/"
+    }
+  ]
+}

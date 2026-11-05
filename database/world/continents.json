@@ -1,0 +1,30 @@
+
+{
+  "version": 1,
+  "continents": [
+    {
+      "id": "africa",
+      "name": "África"
+    },
+    {
+      "id": "asia",
+      "name": "Ásia"
+    },
+    {
+      "id": "europe",
+      "name": "Europa"
+    },
+    {
+      "id": "north_america",
+      "name": "América do Norte"
+    },
+    {
+      "id": "south_america",
+      "name": "América do Sul"
+    },
+    {
+      "id": "oceania",
+      "name": "Oceania"
+    }
+  ]
+}

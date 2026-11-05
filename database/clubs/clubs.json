@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "clubs": [
+    {
+      "id": "athletico-paranaense",
+      "name": "Athletico Paranaense",
+      "country_id": "bra",
+      "city_id": "curitiba",
+      "stadium_id": null
+    },
+    {
+      "id": "atletico-mineiro",
+      "name": "Atlético Mineiro",
+      "country_id": "bra",
+      "city_id": "belo-horizonte",
+      "stadium_id": null
+    },
+    {
+      "id": "bahia",
+      "name": "Bahia",
+      "country_id": "bra",
+      "city_id": "salvador",
+      "stadium_id": null
+    },
+    {
+      "id": "botafogo",
+      "name": "Botafogo",
+      "country_id": "bra",
+      "city_id": "rio-de-janeiro",
+      "stadium_id": null
+    },
+    {
+      "id": "chapecoense",
+      "name": "Chapecoense",
+      "country_id": "bra",
+      "city_id": "chapeco",
+      "stadium_id": null
+    },
+    {
+      "id": "corinthians",
+      "name": "Corinthians",
+      "country_id": "bra",
+      "city_id": "sao-paulo",
+      "stadium_id": null
+    },
+    {
+      "id": "coritiba",
+      "name": "Coritiba",
+      "country_id": "bra",
+      "city_id": "curitiba",
+      "stadium_id": null
+    },
+    {
+      "id": "cruzeiro",
+      "name": "Cruzeiro",
+      "country_id": "bra",
+      "city_id": "belo-horizonte",
+      "stadium_id": null
+    },
+    {
+      "id": "flamengo",
+      "name": "Flamengo",
+      "country_id": "bra",
+      "city_id": "rio-de-janeiro",
+      "stadium_id": null
+    },
+    {
+      "id": "fluminense",
+      "name": "Fluminense",
+      "country_id": "bra",
+      "city_id": "rio-de-janeiro",
+      "stadium_id": null
+    },
+    {
+      "id": "gremio",
+      "name": "Grêmio",
+      "country_id": "bra",
+      "city_id": "porto-alegre",
+      "stadium_id": null
+    },
+    {
+      "id": "internacional",
+      "name": "Internacional",
+      "country_id": "bra",
+      "city_id": "porto-alegre",
+      "stadium_id": null
+    },
+    {
+      "id": "mirassol",
+      "name": "Mirassol",
+      "country_id": "bra",
+      "city_id": "mirassol",
+      "stadium_id": null
+    },
+    {
+      "id": "palmeiras",
+      "name": "Palmeiras",
+      "country_id": "bra",
+      "city_id": "sao-paulo",
+      "stadium_id": null
+    },
+    {
+      "id": "red-bull-bragantino",
+      "name": "Red Bull Bragantino",
+      "country_id": "bra",
+      "city_id": "braganca-paulista",
+      "stadium_id": null
+    },
+    {
+      "id": "remo",
+      "name": "Remo",
+      "country_id": "bra",
+      "city_id": "belem",
+      "stadium_id": null
+    },
+    {
+      "id": "santos",
+      "name": "Santos",
+      "country_id": "bra",
+      "city_id": "santos",
+      "stadium_id": null
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "country_id": "bra",
+      "city_id": "sao-paulo",
+      "stadium_id": null
+    },
+    {
+      "id": "vasco-da-gama",
+      "name": "Vasco da Gama",
+      "country_id": "bra",
+      "city_id": "rio-de-janeiro",
+      "stadium_id": null
+    },
+    {
+      "id": "vitoria",
+      "name": "Vitória",
+      "country_id": "bra",
+      "city_id": "salvador",
+      "stadium_id": null
+    }
+  ]
+}

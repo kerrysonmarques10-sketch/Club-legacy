@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Técnico | Club Legacy</title>
+    <link rel="stylesheet" href="../styles/criar-tecnico.css">
+</head>
+
+<body>
+
+<main class="manager-container">
+
+    <header class="manager-header">
+        <div class="club-info">
+            <span>CLUBE ESCOLHIDO</span>
+            <strong id="selected-club-name">Carregando...</strong>
+        </div>
+    </header>
+
+    <section class="manager-content">
+
+        <section class="manager-form">
+            <div class="fields-grid">
+
+                <div class="form-group">
+                    <label for="manager-name">Nome</label>
+                    <input type="text" id="manager-name" placeholder="Primeiro nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="manager-surname">Sobrenome</label>
+                    <input type="text" id="manager-surname" placeholder="Sobrenome">
+                </div>
+
+                <div class="form-group">
+                    <label for="manager-nationality">Nacionalidade</label>
+                    <input type="text" id="manager-nationality" placeholder="Ex: Brasileiro">
+                </div>
+
+                <div class="form-group">
+                    <label for="manager-birth">Data de nascimento</label>
+                    <input
+                        type="text"
+                        id="manager-birth"
+                        placeholder="DD/MM/AAAA"
+                        inputmode="numeric"
+                        maxlength="10"
+                        autocomplete="bday">
+                </div>
+
+                <div class="form-group">
+                    <label for="formation-select">Formação preferida</label>
+                    <div class="custom-select" id="formation-select">
+                        <button type="button" class="custom-select-button">
+                            <span>4-3-3</span>
+                            <span class="select-arrow">▼</span>
+                        </button>
+                        <div class="custom-select-options">
+                            <button type="button" data-value="4-3-3">4-3-3</button>
+                            <button type="button" data-value="4-4-2">4-4-2</button>
+                            <button type="button" data-value="4-2-3-1">4-2-3-1</button>
+                            <button type="button" data-value="3-5-2">3-5-2</button>
+                            <button type="button" data-value="3-4-3">3-4-3</button>
+                            <button type="button" data-value="4-1-4-1">4-1-4-1</button>
+                            <button type="button" data-value="5-3-2">5-3-2</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience-select">Experiência passada</label>
+                    <div class="custom-select" id="experience-select">
+                        <button type="button" class="custom-select-button">
+                            <span>Nenhuma experiência</span>
+                            <span class="select-arrow">▼</span>
+                        </button>
+                        <div class="custom-select-options">
+                            <button type="button" data-value="nenhuma">Nenhuma experiência</button>
+                            <button type="button" data-value="amador">Jogador amador</button>
+                            <button type="button" data-value="semiprofissional">Semiprofissional</button>
+                            <button type="button" data-value="profissional">Jogador profissional</button>
+                            <button type="button" data-value="internacional">Internacional</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="reputation-select">Reputação inicial</label>
+                    <div class="custom-select" id="reputation-select">
+                        <button type="button" class="custom-select-button">
+                            <span>Desconhecido</span>
+                            <span class="select-arrow">▼</span>
+                        </button>
+                        <div class="custom-select-options">
+                            <button type="button" data-value="baixa">Desconhecido</button>
+                            <button type="button" data-value="regional">Regional</button>
+                            <button type="button" data-value="nacional">Nacional</button>
+                            <button type="button" data-value="internacional">Internacional</button>
+                            <button type="button" data-value="mundial">Mundial</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <aside class="manager-photo-panel">
+            <div class="photo-placeholder">
+                <img id="manager-photo-preview" hidden>
+                <span id="photo-icon">👤</span>
+            </div>
+
+            <label for="manager-photo" class="photo-button">
+                Adicionar foto
+            </label>
+
+            <input type="file" id="manager-photo" accept="image/*" hidden>
+        </aside>
+
+    </section>
+
+    <footer class="manager-footer">
+        <button id="back-button" type="button">Voltar</button>
+        <button id="saved-manager-button" type="button">Selecionar técnico existente</button>
+        <button id="create-button" type="button">Avançar</button>
+    </footer>
+
+</main>
+
+<div id="saved-manager-modal" class="saved-manager-modal" hidden>
+    <div class="saved-manager-window">
+        <h2>Selecionar técnico</h2>
+        <p>Escolha um técnico de outra carreira.</p>
+        <div id="saved-manager-list"></div>
+        <button id="close-manager-modal" type="button">Fechar</button>
+    </div>
+</div>
+
+<script src="../scripts/criar-tecnico.js"></script>
+
+</body>
+</html>

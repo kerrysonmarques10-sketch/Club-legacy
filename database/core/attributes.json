@@ -1,0 +1,70 @@
+
+{
+  "version": 1,
+  "scale": {
+    "min": 0,
+    "max": 99
+  },
+  "categories": [
+    {
+      "id": "outfield",
+      "name": "Jogadores de linha",
+      "attributes": [
+        {
+          "id": "finishing",
+          "name": "Finalização"
+        },
+        {
+          "id": "technique",
+          "name": "Técnica"
+        },
+        {
+          "id": "passing",
+          "name": "Passe"
+        },
+        {
+          "id": "tackling",
+          "name": "Desarme"
+        },
+        {
+          "id": "physical",
+          "name": "Físico"
+        },
+        {
+          "id": "pace",
+          "name": "Velocidade"
+        }
+      ]
+    },
+    {
+      "id": "goalkeeping",
+      "name": "Goleiros",
+      "attributes": [
+        {
+          "id": "distribution",
+          "name": "Distribuição"
+        },
+        {
+          "id": "rushing_out",
+          "name": "Saída"
+        },
+        {
+          "id": "positioning",
+          "name": "Posicionamento"
+        },
+        {
+          "id": "reflexes",
+          "name": "Reação"
+        },
+        {
+          "id": "handling",
+          "name": "Manejo"
+        },
+        {
+          "id": "mobility",
+          "name": "Mobilidade"
+        }
+      ]
+    }
+  ]
+}

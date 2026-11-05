@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #080e17;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 15px 30px;
+    gap: 20px;
+    overflow: hidden;
+}
+
+/* CABEÇALHO */
+.main-header {
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.main-header h1 {
+    color: #35d692;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* ÚLTIMA CARREIRA */
+.last-save {
+    background: #111d2b;
+    border: 1px solid #23374b;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.last-save h2 {
+    font-size: 24px;
+    color: #35d692;
+}
+
+.last-save p {
+    font-size: 16px;
+    color: #aab8c7;
+}
+
+/* MENU DE OPÇÕES */
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+}
+
+/* BOTÕES */
+.menu-options button,
+.last-save button {
+    width: 190px;
+    height: 42px;
+    padding: 8px 12px;
+    background: #172b3b;
+    color: white;
+    border: 1px solid #29465b;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.menu-options button:hover,
+.last-save button:hover {
+    background: #35d692;
+    color: #080e17;
+    border-color: #35d692;
+}
+
+/* BOTÃO CONTINUAR */
+.last-save button {
+    background: #35d692;
+    color: #080e17;
+    border: none;
+}

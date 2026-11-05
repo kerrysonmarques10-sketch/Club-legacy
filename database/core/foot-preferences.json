@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "preferences": [
+    {"id": "right", "name": "Destro"},
+    {"id": "left", "name": "Canhoto"},
+    {"id": "both", "name": "Ambidestro"}
+  ]
+}

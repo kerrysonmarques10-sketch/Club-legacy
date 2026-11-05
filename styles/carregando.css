@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: #080e17;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.loading-container {
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loading-content {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
+
+h1 span {
+    color: #65adf5;
+}
+
+.loading-spinner {
+    width: 38px;
+    height: 38px;
+    border: 3px solid #26394f;
+    border-top-color: #65adf5;
+    border-radius: 50%;
+    animation: girar 0.8s linear infinite;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-bottom: 9px;
+}
+
+#club-name {
+    color: #91a5bb;
+    font-size: 11px;
+    margin-bottom: 22px;
+}
+
+.loading-bar {
+    width: 100%;
+    height: 5px;
+    background: #1c2b3c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.loading-progress {
+    width: 0%;
+    height: 100%;
+    background: #299b63;
+    animation: carregar 2.5s linear forwards;
+}
+
+.loading-text {
+    color: #71869d;
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 12px;
+    color: #536579;
+    font-size: 8px;
+}
+
+@keyframes girar {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes carregar {
+    to {
+        width: 100%;
+    }
+}

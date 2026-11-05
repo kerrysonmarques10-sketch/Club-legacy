@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "personalities": [
+    {"id": "model_professional", "name": "Profissional exemplar"},
+    {"id": "professional", "name": "Profissional"},
+    {"id": "ambitious", "name": "Ambicioso"},
+    {"id": "determined", "name": "Determinado"},
+    {"id": "leader", "name": "Líder"},
+    {"id": "loyal", "name": "Leal"},
+    {"id": "balanced", "name": "Equilibrado"},
+    {"id": "reserved", "name": "Reservado"},
+    {"id": "temperamental", "name": "Temperamental"},
+    {"id": "volatile", "name": "Instável"},
+    {"id": "unprofessional", "name": "Pouco profissional"},
+    {"id": "controversial", "name": "Polêmico"},
+    {"id": "perfectionist", "name": "Perfeccionista"},
+    {"id": "media_friendly", "name": "Comunicativo"}
+  ]
+}

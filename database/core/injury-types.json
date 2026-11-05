@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "injuries": [
+    {"id": "muscle_strain", "name": "Distensão muscular", "category": "muscular"},
+    {"id": "muscle_tear", "name": "Ruptura muscular", "category": "muscular"},
+    {"id": "hamstring", "name": "Lesão nos posteriores da coxa", "category": "muscular"},
+    {"id": "calf_strain", "name": "Lesão na panturrilha", "category": "muscular"},
+    {"id": "ankle_sprain", "name": "Entorse no tornozelo", "category": "joint"},
+    {"id": "knee_injury", "name": "Lesão no joelho", "category": "joint"},
+    {"id": "acl_tear", "name": "Ruptura do ligamento cruzado", "category": "joint"},
+    {"id": "meniscus", "name": "Lesão no menisco", "category": "joint"},
+    {"id": "fracture", "name": "Fratura óssea", "category": "bone"},
+    {"id": "concussion", "name": "Concussão", "category": "head"},
+    {"id": "back_injury", "name": "Lesão nas costas", "category": "other"},
+    {"id": "groin_strain", "name": "Lesão na virilha", "category": "muscular"},
+    {"id": "shoulder_injury", "name": "Lesão no ombro", "category": "joint"}
+  ]
+}

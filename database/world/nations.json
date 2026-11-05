@@ -1,0 +1,915 @@
+{
+  "version": 1,
+  "nations": [
+    {
+      "id": "bra",
+      "name": "Brasil",
+      "nationality": "Brasileira",
+      "continent_id": "south_america",
+      "code": "BRA"
+    },
+    {
+      "id": "arg",
+      "name": "Argentina",
+      "nationality": "Argentina",
+      "continent_id": "south_america",
+      "code": "ARG"
+    },
+    {
+      "id": "uru",
+      "name": "Uruguai",
+      "nationality": "Uruguaia",
+      "continent_id": "south_america",
+      "code": "URU"
+    },
+    {
+      "id": "chi",
+      "name": "Chile",
+      "nationality": "Chilena",
+      "continent_id": "south_america",
+      "code": "CHI"
+    },
+    {
+      "id": "col",
+      "name": "Colômbia",
+      "nationality": "Colombiana",
+      "continent_id": "south_america",
+      "code": "COL"
+    },
+    {
+      "id": "par",
+      "name": "Paraguai",
+      "nationality": "Paraguaia",
+      "continent_id": "south_america",
+      "code": "PAR"
+    },
+    {
+      "id": "per",
+      "name": "Peru",
+      "nationality": "Peruana",
+      "continent_id": "south_america",
+      "code": "PER"
+    },
+    {
+      "id": "ecu",
+      "name": "Equador",
+      "nationality": "Equatoriana",
+      "continent_id": "south_america",
+      "code": "ECU"
+    },
+    {
+      "id": "bol",
+      "name": "Bolívia",
+      "nationality": "Boliviana",
+      "continent_id": "south_america",
+      "code": "BOL"
+    },
+    {
+      "id": "ven",
+      "name": "Venezuela",
+      "nationality": "Venezuelana",
+      "continent_id": "south_america",
+      "code": "VEN"
+    },
+    {
+      "id": "guy",
+      "name": "Guiana",
+      "nationality": "Guianense",
+      "continent_id": "south_america",
+      "code": "GUY"
+    },
+    {
+      "id": "sur",
+      "name": "Suriname",
+      "nationality": "Surinamesa",
+      "continent_id": "south_america",
+      "code": "SUR"
+    },
+   {
+  "id": "eng",
+  "name": "Inglaterra",
+  "nationality": "Inglesa",
+  "continent_id": "europe",
+  "code": "ENG"
+},
+{
+  "id": "fra",
+  "name": "França",
+  "nationality": "Francesa",
+  "continent_id": "europe",
+  "code": "FRA"
+},
+{
+  "id": "esp",
+  "name": "Espanha",
+  "nationality": "Espanhola",
+  "continent_id": "europe",
+  "code": "ESP"
+},
+{
+  "id": "ger",
+  "name": "Alemanha",
+  "nationality": "Alemã",
+  "continent_id": "europe",
+  "code": "GER"
+},
+{
+  "id": "ita",
+  "name": "Itália",
+  "nationality": "Italiana",
+  "continent_id": "europe",
+  "code": "ITA"
+},
+{
+  "id": "por",
+  "name": "Portugal",
+  "nationality": "Portuguesa",
+  "continent_id": "europe",
+  "code": "POR"
+},
+{
+  "id": "ned",
+  "name": "Países Baixos",
+  "nationality": "Neerlandesa",
+  "continent_id": "europe",
+  "code": "NED"
+},
+{
+  "id": "bel",
+  "name": "Bélgica",
+  "nationality": "Belga",
+  "continent_id": "europe",
+  "code": "BEL"
+},
+{
+  "id": "sco",
+  "name": "Escócia",
+  "nationality": "Escocesa",
+  "continent_id": "europe",
+  "code": "SCO"
+},
+{
+  "id": "wal",
+  "name": "País de Gales",
+  "nationality": "Galesa",
+  "continent_id": "europe",
+  "code": "WAL"
+},
+{
+  "id": "nir",
+  "name": "Irlanda do Norte",
+  "nationality": "Norte-irlandesa",
+  "continent_id": "europe",
+  "code": "NIR"
+},
+{
+  "id": "irl",
+  "name": "Irlanda",
+  "nationality": "Irlandesa",
+  "continent_id": "europe",
+  "code": "IRL"
+},
+{
+  "id": "sui",
+  "name": "Suíça",
+  "nationality": "Suíça",
+  "continent_id": "europe",
+  "code": "SUI"
+},
+{
+  "id": "aut",
+  "name": "Áustria",
+  "nationality": "Austríaca",
+  "continent_id": "europe",
+  "code": "AUT"
+},
+{
+  "id": "tur",
+  "name": "Turquia",
+  "nationality": "Turca",
+  "continent_id": "europe",
+  "code": "TUR"
+},
+{
+  "id": "rus",
+  "name": "Rússia",
+  "nationality": "Russa",
+  "continent_id": "europe",
+  "code": "RUS"
+},
+{
+  "id": "ukr",
+  "name": "Ucrânia",
+  "nationality": "Ucraniana",
+  "continent_id": "europe",
+  "code": "UKR"
+},
+{
+  "id": "cro",
+  "name": "Croácia",
+  "nationality": "Croata",
+  "continent_id": "europe",
+  "code": "CRO"
+},
+{
+  "id": "srb",
+  "name": "Sérvia",
+  "nationality": "Sérvia",
+  "continent_id": "europe",
+  "code": "SRB"
+},
+{
+  "id": "gre",
+  "name": "Grécia",
+  "nationality": "Grega",
+  "continent_id": "europe",
+  "code": "GRE"
+},
+{
+  "id": "den",
+  "name": "Dinamarca",
+  "nationality": "Dinamarquesa",
+  "continent_id": "europe",
+  "code": "DEN"
+},
+{
+  "id": "swe",
+  "name": "Suécia",
+  "nationality": "Sueca",
+  "continent_id": "europe",
+  "code": "SWE"
+},
+{
+  "id": "nor",
+  "name": "Noruega",
+  "nationality": "Norueguesa",
+  "continent_id": "europe",
+  "code": "NOR"
+},
+{
+  "id": "fin",
+  "name": "Finlândia",
+  "nationality": "Finlandesa",
+  "continent_id": "europe",
+  "code": "FIN"
+},
+{
+  "id": "pol",
+  "name": "Polônia",
+  "nationality": "Polonesa",
+  "continent_id": "europe",
+  "code": "POL"
+},
+{
+  "id": "cze",
+  "name": "Tchéquia",
+  "nationality": "Tcheca",
+  "continent_id": "europe",
+  "code": "CZE"
+},
+{
+  "id": "svk",
+  "name": "Eslováquia",
+  "nationality": "Eslovaca",
+  "continent_id": "europe",
+  "code": "SVK"
+},
+{
+  "id": "hun",
+  "name": "Hungria",
+  "nationality": "Húngara",
+  "continent_id": "europe",
+  "code": "HUN"
+},
+{
+  "id": "rou",
+  "name": "Romênia",
+  "nationality": "Romena",
+  "continent_id": "europe",
+  "code": "ROU"
+},
+{
+  "id": "bul",
+  "name": "Bulgária",
+  "nationality": "Búlgara",
+  "continent_id": "europe",
+  "code": "BUL"
+},
+{
+  "id": "svn",
+  "name": "Eslovênia",
+  "nationality": "Eslovena",
+  "continent_id": "europe",
+  "code": "SVN"
+},
+{
+  "id": "bih",
+  "name": "Bósnia e Herzegovina",
+  "nationality": "Bósnia",
+  "continent_id": "europe",
+  "code": "BIH"
+},
+{
+  "id": "mne",
+  "name": "Montenegro",
+  "nationality": "Montenegrina",
+  "continent_id": "europe",
+  "code": "MNE"
+},
+{
+  "id": "mkd",
+  "name": "Macedônia do Norte",
+  "nationality": "Macedônia",
+  "continent_id": "europe",
+  "code": "MKD"
+},
+{
+  "id": "alb",
+  "name": "Albânia",
+  "nationality": "Albanesa",
+  "continent_id": "europe",
+  "code": "ALB"
+},
+{
+  "id": "isl",
+  "name": "Islândia",
+  "nationality": "Islandesa",
+  "continent_id": "europe",
+  "code": "ISL"
+},
+{
+  "id": "est",
+  "name": "Estônia",
+  "nationality": "Estoniana",
+  "continent_id": "europe",
+  "code": "EST"
+},
+{
+  "id": "lat",
+  "name": "Letônia",
+  "nationality": "Letã",
+  "continent_id": "europe",
+  "code": "LVA"
+},
+{
+  "id": "ltu",
+  "name": "Lituânia",
+  "nationality": "Lituana",
+  "continent_id": "europe",
+  "code": "LTU"
+},
+{
+  "id": "lux",
+  "name": "Luxemburgo",
+  "nationality": "Luxemburguesa",
+  "continent_id": "europe",
+  "code": "LUX"
+},
+{
+  "id": "cyp",
+  "name": "Chipre",
+  "nationality": "Cipriota",
+  "continent_id": "europe",
+  "code": "CYP"
+},
+{
+  "id": "mlt",
+  "name": "Malta",
+  "nationality": "Maltesa",
+  "continent_id": "europe",
+  "code": "MLT"
+},
+{
+  "id": "and",
+  "name": "Andorra",
+  "nationality": "Andorrana",
+  "continent_id": "europe",
+  "code": "AND"
+},
+{
+  "id": "smr",
+  "name": "San Marino",
+  "nationality": "Sammarinesa",
+  "continent_id": "europe",
+  "code": "SMR"
+},
+{
+  "id": "lie",
+  "name": "Liechtenstein",
+  "nationality": "Liechtensteiniana",
+  "continent_id": "europe",
+  "code": "LIE"
+},
+{
+  "id": "mda",
+  "name": "Moldávia",
+  "nationality": "Moldava",
+  "continent_id": "europe",
+  "code": "MDA"
+},
+{
+  "id": "geo",
+  "name": "Geórgia",
+  "nationality": "Georgiana",
+  "continent_id": "europe",
+  "code": "GEO"
+},
+{
+  "id": "arm",
+  "name": "Armênia",
+  "nationality": "Armênia",
+  "continent_id": "europe",
+  "code": "ARM"
+},
+{
+  "id": "aze",
+  "name": "Azerbaijão",
+  "nationality": "Azeri",
+  "continent_id": "europe",
+  "code": "AZE"
+},
+{
+  "id": "chn",
+  "name": "China",
+  "nationality": "Chinesa",
+  "continent_id": "asia",
+  "code": "CHN"
+},
+{
+  "id": "jpn",
+  "name": "Japão",
+  "nationality": "Japonesa",
+  "continent_id": "asia",
+  "code": "JPN"
+},
+{
+  "id": "kor",
+  "name": "Coreia do Sul",
+  "nationality": "Sul-coreana",
+  "continent_id": "asia",
+  "code": "KOR"
+},
+{
+  "id": "prk",
+  "name": "Coreia do Norte",
+  "nationality": "Norte-coreana",
+  "continent_id": "asia",
+  "code": "PRK"
+},
+{
+  "id": "ind",
+  "name": "Índia",
+  "nationality": "Indiana",
+  "continent_id": "asia",
+  "code": "IND"
+},
+{
+  "id": "sau",
+  "name": "Arábia Saudita",
+  "nationality": "Saudita",
+  "continent_id": "asia",
+  "code": "KSA"
+},
+{
+  "id": "irn",
+  "name": "Irã",
+  "nationality": "Iraniana",
+  "continent_id": "asia",
+  "code": "IRN"
+},
+{
+  "id": "irq",
+  "name": "Iraque",
+  "nationality": "Iraquiana",
+  "continent_id": "asia",
+  "code": "IRQ"
+},
+{
+  "id": "qat",
+  "name": "Catar",
+  "nationality": "Catariana",
+  "continent_id": "asia",
+  "code": "QAT"
+},
+{
+  "id": "uae",
+  "name": "Emirados Árabes Unidos",
+  "nationality": "Emiradense",
+  "continent_id": "asia",
+  "code": "UAE"
+},
+{
+  "id": "aus",
+  "name": "Austrália",
+  "nationality": "Australiana",
+  "continent_id": "oceania",
+  "code": "AUS"
+},
+{
+  "id": "uzb",
+  "name": "Uzbequistão",
+  "nationality": "Uzbeque",
+  "continent_id": "asia",
+  "code": "UZB"
+},
+{
+  "id": "kaz",
+  "name": "Cazaquistão",
+  "nationality": "Cazaque",
+  "continent_id": "asia",
+  "code": "KAZ"
+},
+{
+  "id": "tha",
+  "name": "Tailândia",
+  "nationality": "Tailandesa",
+  "continent_id": "asia",
+  "code": "THA"
+},
+{
+  "id": "vnm",
+  "name": "Vietnã",
+  "nationality": "Vietnamita",
+  "continent_id": "asia",
+  "code": "VIE"
+},
+{
+  "id": "idn",
+  "name": "Indonésia",
+  "nationality": "Indonésia",
+  "continent_id": "asia",
+  "code": "IDN"
+},
+{
+  "id": "mys",
+  "name": "Malásia",
+  "nationality": "Malaia",
+  "continent_id": "asia",
+  "code": "MAS"
+},
+{
+  "id": "sgp",
+  "name": "Singapura",
+  "nationality": "Singapurense",
+  "continent_id": "asia",
+  "code": "SGP"
+},
+{
+  "id": "irn2",
+  "name": "Síria",
+  "nationality": "Síria",
+  "continent_id": "asia",
+  "code": "SYR"
+},
+{
+  "id": "jor",
+  "name": "Jordânia",
+  "nationality": "Jordaniana",
+  "continent_id": "asia",
+  "code": "JOR"
+},
+{
+  "id": "isr",
+  "name": "Israel",
+  "nationality": "Israelense",
+  "continent_id": "asia",
+  "code": "ISR"
+},
+{
+  "id": "lib",
+  "name": "Líbano",
+  "nationality": "Libanesa",
+  "continent_id": "asia",
+  "code": "LBN"
+},
+{
+  "id": "tjk",
+  "name": "Tajiquistão",
+  "nationality": "Tajique",
+  "continent_id": "asia",
+  "code": "TJK"
+},
+{
+  "id": "kgz",
+  "name": "Quirguistão",
+  "nationality": "Quirguiz",
+  "continent_id": "asia",
+  "code": "KGZ"
+},
+{
+  "id": "tkm",
+  "name": "Turcomenistão",
+  "nationality": "Turcomena",
+  "continent_id": "asia",
+  "code": "TKM"
+},
+{
+  "id": "pak",
+  "name": "Paquistão",
+  "nationality": "Paquistanesa",
+  "continent_id": "asia",
+  "code": "PAK"
+},
+{
+  "id": "ban",
+  "name": "Bangladesh",
+  "nationality": "Bangladeshiana",
+  "continent_id": "asia",
+  "code": "BAN"
+},
+{
+  "id": "nep",
+  "name": "Nepal",
+  "nationality": "Nepalesa",
+  "continent_id": "asia",
+  "code": "NEP"
+},
+{
+  "id": "sri",
+  "name": "Sri Lanka",
+  "nationality": "Cingalesa",
+  "continent_id": "asia",
+  "code": "SRI"
+},
+{
+  "id": "phi",
+  "name": "Filipinas",
+  "nationality": "Filipina",
+  "continent_id": "asia",
+  "code": "PHI"
+},
+{
+  "id": "nga",
+  "name": "Nigéria",
+  "nationality": "Nigeriana",
+  "continent_id": "africa",
+  "code": "NGA"
+},
+{
+  "id": "egy",
+  "name": "Egito",
+  "nationality": "Egípcia",
+  "continent_id": "africa",
+  "code": "EGY"
+},
+{
+  "id": "mar",
+  "name": "Marrocos",
+  "nationality": "Marroquina",
+  "continent_id": "africa",
+  "code": "MAR"
+},
+{
+  "id": "sen",
+  "name": "Senegal",
+  "nationality": "Senegalesa",
+  "continent_id": "africa",
+  "code": "SEN"
+},
+{
+  "id": "gha",
+  "name": "Gana",
+  "nationality": "Ganesa",
+  "continent_id": "africa",
+  "code": "GHA"
+},
+{
+  "id": "civ",
+  "name": "Costa do Marfim",
+  "nationality": "Marfinense",
+  "continent_id": "africa",
+  "code": "CIV"
+},
+{
+  "id": "cmr",
+  "name": "Camarões",
+  "nationality": "Camaronesa",
+  "continent_id": "africa",
+  "code": "CMR"
+},
+{
+  "id": "rsa",
+  "name": "África do Sul",
+  "nationality": "Sul-africana",
+  "continent_id": "africa",
+  "code": "RSA"
+},
+{
+  "id": "alg",
+  "name": "Argélia",
+  "nationality": "Argelina",
+  "continent_id": "africa",
+  "code": "ALG"
+},
+{
+  "id": "tun",
+  "name": "Tunísia",
+  "nationality": "Tunisiana",
+  "continent_id": "africa",
+  "code": "TUN"
+},
+{
+  "id": "cod",
+  "name": "República Democrática do Congo",
+  "nationality": "Congolesa",
+  "continent_id": "africa",
+  "code": "COD"
+},
+{
+  "id": "con",
+  "name": "República do Congo",
+  "nationality": "Congolesa",
+  "continent_id": "africa",
+  "code": "CGO"
+},
+{
+  "id": "mli",
+  "name": "Mali",
+  "nationality": "Malianа",
+  "continent_id": "africa",
+  "code": "MLI"
+},
+{
+  "id": "bfa",
+  "name": "Burkina Faso",
+  "nationality": "Burquinense",
+  "continent_id": "africa",
+  "code": "BFA"
+},
+{
+  "id": "gui",
+  "name": "Guiné",
+  "nationality": "Guineana",
+  "continent_id": "africa",
+  "code": "GUI"
+},
+{
+  "id": "gab",
+  "name": "Gabão",
+  "nationality": "Gabonense",
+  "continent_id": "africa",
+  "code": "GAB"
+},
+{
+  "id": "zmb",
+  "name": "Zâmbia",
+  "nationality": "Zambiana",
+  "continent_id": "africa",
+  "code": "ZAM"
+},
+{
+  "id": "zim",
+  "name": "Zimbábue",
+  "nationality": "Zimbabuana",
+  "continent_id": "africa",
+  "code": "ZIM"
+},
+{
+  "id": "ang",
+  "name": "Angola",
+  "nationality": "Angolana",
+  "continent_id": "africa",
+  "code": "ANG"
+},
+{
+  "id": "moz",
+  "name": "Moçambique",
+  "nationality": "Moçambicana",
+  "continent_id": "africa",
+  "code": "MOZ"
+},
+{
+  "id": "cpv",
+  "name": "Cabo Verde",
+  "nationality": "Cabo-verdiana",
+  "continent_id": "africa",
+  "code": "CPV"
+},
+{
+  "id": "gui2",
+  "name": "Guiné-Bissau",
+  "nationality": "Guineense",
+  "continent_id": "africa",
+  "code": "GNB"
+},
+{
+  "id": "mad",
+  "name": "Madagascar",
+  "nationality": "Malgaxe",
+  "continent_id": "africa",
+  "code": "MAD"
+},
+{
+  "id": "ken",
+  "name": "Quênia",
+  "nationality": "Queniana",
+  "continent_id": "africa",
+  "code": "KEN"
+},
+{
+  "id": "uga",
+  "name": "Uganda",
+  "nationality": "Ugandense",
+  "continent_id": "africa",
+  "code": "UGA"
+},
+{
+  "id": "tan",
+  "name": "Tanzânia",
+  "nationality": "Tanzaniana",
+  "continent_id": "africa",
+  "code": "TAN"
+},
+{
+  "id": "eth",
+  "name": "Etiópia",
+  "nationality": "Etíope",
+  "continent_id": "africa",
+  "code": "ETH"
+},
+{
+  "id": "ben",
+  "name": "Benin",
+  "nationality": "Beninense",
+  "continent_id": "africa",
+  "code": "BEN"
+},
+{
+  "id": "tog",
+  "name": "Togo",
+  "nationality": "Togolesa",
+  "continent_id": "africa",
+  "code": "TOG"
+},
+{
+  "id": "nam",
+  "name": "Namíbia",
+  "nationality": "Namibiana",
+  "continent_id": "africa",
+  "code": "NAM"
+},
+{
+  "id": "usa",
+  "name": "Estados Unidos",
+  "nationality": "Americana",
+  "continent_id": "north_america",
+  "code": "USA"
+},
+{
+  "id": "can",
+  "name": "Canadá",
+  "nationality": "Canadense",
+  "continent_id": "north_america",
+  "code": "CAN"
+},
+{
+  "id": "mex",
+  "name": "México",
+  "nationality": "Mexicana",
+  "continent_id": "north_america",
+  "code": "MEX"
+},
+{
+  "id": "nzl",
+  "name": "Nova Zelândia",
+  "nationality": "Neozelandesa",
+  "continent_id": "oceania",
+  "code": "NZL"
+},
+{
+  "id": "fij",
+  "name": "Fiji",
+  "nationality": "Fijiana",
+  "continent_id": "oceania",
+  "code": "FIJ"
+},
+{
+  "id": "png",
+  "name": "Papua-Nova Guiné",
+  "nationality": "Papua-nova-guineense",
+  "continent_id": "oceania",
+  "code": "PNG"
+},
+{
+  "id": "sol",
+  "name": "Ilhas Salomão",
+  "nationality": "Salomonense",
+  "continent_id": "oceania",
+  "code": "SOL"
+},
+{
+  "id": "van",
+  "name": "Vanuatu",
+  "nationality": "Vanuatuense",
+  "continent_id": "oceania",
+  "code": "VAN"
+},
+{
+  "id": "tah",
+  "name": "Taiti",
+  "nationality": "Taitiana",
+  "continent_id": "oceania",
+  "code": "TAH"
+}
+  ]
+}

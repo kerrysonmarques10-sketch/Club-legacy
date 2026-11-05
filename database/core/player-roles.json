@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "roles": [
+    {"id": "goalkeeper", "name": "Goleiro", "positions": ["GK"]},
+    {"id": "sweeper_keeper", "name": "Goleiro líbero", "positions": ["GK"]},
+    {"id": "central_defender", "name": "Zagueiro central", "positions": ["CB"]},
+    {"id": "ball_playing_defender", "name": "Zagueiro construtor", "positions": ["CB"]},
+    {"id": "full_back", "name": "Lateral", "positions": ["LB", "RB"]},
+    {"id": "wing_back", "name": "Ala", "positions": ["LWB", "RWB"]},
+    {"id": "defensive_midfielder", "name": "Volante defensivo", "positions": ["CDM"]},
+    {"id": "deep_playmaker", "name": "Volante organizador", "positions": ["CDM", "CM"]},
+    {"id": "central_midfielder", "name": "Meio-campista", "positions": ["CM"]},
+    {"id": "box_to_box", "name": "Meio-campista área a área", "positions": ["CM"]},
+    {"id": "advanced_playmaker", "name": "Armador avançado", "positions": ["CAM", "CM"]},
+    {"id": "attacking_midfielder", "name": "Meia ofensivo", "positions": ["CAM"]},
+    {"id": "inside_forward", "name": "Ponta invertido", "positions": ["LW", "RW"]},
+    {"id": "winger", "name": "Ponta", "positions": ["LW", "RW"]},
+    {"id": "wide_midfielder", "name": "Meia aberto", "positions": ["LM", "RM"]},
+    {"id": "second_striker", "name": "Segundo atacante", "positions": ["SA"]},
+    {"id": "advanced_forward", "name": "Atacante avançado", "positions": ["ST"]},
+    {"id": "target_forward", "name": "Centroavante de referência", "positions": ["ST"]},
+    {"id": "pressing_forward", "name": "Atacante pressionante", "positions": ["ST"]},
+    {"id": "complete_forward", "name": "Atacante completo", "positions": ["ST"]}
+  ]
+}

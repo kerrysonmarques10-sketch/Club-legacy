@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "bodyTypes": [
+    {"id": "very_slim", "name": "Muito magro"},
+    {"id": "slim", "name": "Magro"},
+    {"id": "lean", "name": "Atlético"},
+    {"id": "average", "name": "Mediano"},
+    {"id": "muscular", "name": "Musculoso"},
+    {"id": "powerful", "name": "Robusto"},
+    {"id": "stocky", "name": "Compacto"}
+  ]
+}
