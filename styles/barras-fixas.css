@@ -13,13 +13,150 @@
     --text-muted: #9baabd;
 }
 
-/* BARRA SUPERIOR */
+* {
+    box-sizing: border-box;
+}
+
+/* ==============================
+   BARRA LATERAL
+============================== */
+
+.side-bar {
+    position: fixed;
+    top: 58;
+    left: 0;
+    bottom: 0;
+    width: 155px;
+
+    background: var(--panel);
+    border-right: 1px solid var(--border);
+
+    overflow: hidden;
+    z-index: 1001;
+}
+
+/* ESCUDO DO CLUBE */
+
+.sidebar-club {
+    width: 100%;
+    height: 48px;
+    min-height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2px;
+    padding: 3px 0;
+}
+
+.sidebar-club img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+/* NAVEGAÇÃO */
+
+.main-navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+/* GRUPOS */
+
+.navigation-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    padding: 5px 0;
+    margin-bottom: 3px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.navigation-group:last-child {
+    border-bottom: none;
+}
+
+/* BOTÕES */
+
+.nav-button {
+    width: 100%;
+    min-height: 27px;
+    height: 27px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 3px 6px;
+
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+
+    color: #c2ceda;
+    font-size: 10px;
+    text-align: left;
+
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.nav-button:hover {
+    background: #1a2b3b;
+    color: var(--text);
+}
+
+/* BOTÃO ATIVO */
+
+.nav-button.active {
+    background: #193b30;
+    color: var(--green);
+    font-weight: bold;
+
+    border-left: 3px solid var(--green);
+    padding-left: 3px;
+}
+
+/* ÍCONES */
+
+.nav-icon {
+    width: 18px;
+    flex-shrink: 0;
+
+    color: inherit;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* ROLAGEM DA NAVEGAÇÃO */
+
+.main-navigation::-webkit-scrollbar {
+    width: 4px;
+}
+
+.main-navigation::-webkit-scrollbar-thumb {
+    background: #34485b;
+    border-radius: 5px;
+}
+
+/* ==============================
+   BARRA SUPERIOR
+============================== */
 
 .top-bar {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 155px;
+    right: 0;
+
     height: 58px;
 
     display: flex;
@@ -27,6 +164,7 @@
     justify-content: space-between;
 
     padding: 0 22px;
+
     background: var(--panel);
     border-bottom: 1px solid var(--border);
 
@@ -138,223 +276,126 @@
 .advance-button:hover {
     background: #55e6a6;
 }
-
-/* ==============================
-   BARRA LATERAL
-============================== */
-
-.side-bar {
-    position: fixed;
-    top: 76px;
-    left: 0;
-    bottom: 0;
-
-    width: 170px;
-
-    background: var(--panel);
-    border-right: 1px solid var(--border);
-
-    overflow-y: auto;
-    overflow-x: hidden;
-
-    z-index: 900;
-}
-
-/* NAVEGAÇÃO */
-
-.main-navigation {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 8px 20px;
-}
-
-/* GRUPOS DE BOTÕES */
-
-.navigation-group {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-
-    padding: 8px 0;
-    border-bottom: 1px solid var(--border);
-}
-
-.navigation-group:last-child {
-    border-bottom: none;
-}
-
-/* BOTÕES */
-
-.nav-button {
-    width: 100%;
-    min-height: 38px;
-
-    display: flex;
-    align-items: center;
-    gap: 12px;
-
-    padding: 0 12px;
-
-    background: transparent;
-    border: none;
-    border-radius: 4px;
-
-    color: #c2ceda;
-    font-size: 12px;
-    text-align: left;
-
-    cursor: pointer;
-    transition: 0.15s;
-}
-
-.nav-button:hover {
-    background: #1a2b3b;
-    color: var(--text);
-}
-
-/* BOTÃO SELECIONADO */
-
-.nav-button.active {
-    background: #193b30;
-    color: var(--green);
-    font-weight: bold;
-
-    border-left: 3px solid var(--green);
-    padding-left: 9px;
-}
-
-/* ÍCONES */
-
-.nav-icon {
-    width: 18px;
-    flex-shrink: 0;
-
-    color: inherit;
-    font-size: 17px;
-    text-align: center;
-}
-
-/* BARRA DE ROLAGEM */
-
-.side-bar::-webkit-scrollbar {
-    width: 5px;
-}
-
-.side-bar::-webkit-scrollbar-thumb {
-    background: #34485b;
-    border-radius: 5px;
-}
-/* ESCUDO DO CLUBE NA BARRA LATERAL */
-
-.sidebar-club {
-    width: 100%;
-    height: 76px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 8px;
-}
-
-.sidebar-club img {
+.club-crest {
     width: 42px;
     height: 42px;
+    min-width: 42px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.club-crest img {
+    width: 34px;
+    height: 34px;
+    max-width: 34px;
+    max-height: 34px;
     object-fit: contain;
     display: block;
 }
-/* BARRA LATERAL - ALTURA TOTAL */
-
-.side-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-
-    width: 155px;
-
-    background: var(--panel);
-    border-right: 1px solid var(--border);
-
-    overflow: hidden;
-    z-index: 1001;
-}
-
-
-/* BARRA SUPERIOR - COMEÇA DEPOIS DA LATERAL */
-
-.top-bar {
-    position: fixed;
-    top: 0;
-    left: 155px;
-    right: 0;
-
-    height: 58px;
-
+.top-bar .club-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    padding: 0 22px;
-
-    background: var(--panel);
-    border-bottom: 1px solid var(--border);
-
-    z-index: 1000;
-}
-/* COMPACTAR NAVEGAÇÃO */
-
-.sidebar-club {
-    height: 60px;
-    margin-bottom: 3px;
+    gap: 10px;
+    flex-shrink: 0;
 }
 
-.sidebar-club img {
+.top-bar .club-crest {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar .club-crest img {
     width: 34px;
     height: 34px;
+    object-fit: contain;
 }
 
-.navigation-group {
-    margin-bottom: 8px;
-}
+/* BARRA SUPERIOR COMPACTA */
 
-.nav-button {
-    min-height: 32px;
-    padding: 5px 9px;
-    font-size: 11px;
-}
-/* NAVEGAÇÃO COMPACTA */
-
-.side-bar {
-    overflow: hidden;
-}
-
-.sidebar-club {
+.top-bar {
+    left: 155px;
     height: 48px;
-    margin-bottom: 2px;
-    padding: 3px 0;
+    padding: 0 15px;
 }
 
-.sidebar-club img {
+/* ESCUDO */
+
+.top-bar .club-crest {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+}
+
+.top-bar .club-crest img {
     width: 30px;
     height: 30px;
+    object-fit: contain;
 }
 
-.main-navigation {
-    padding: 0 5px;
+/* INFORMAÇÕES */
+
+.top-bar .club-data strong {
+    font-size: 12px;
 }
 
-.navigation-group {
-    margin-bottom: 3px;
+.top-bar .club-data span {
+    font-size: 9px;
 }
 
-.nav-button {
-    min-height: 27px;
-    height: 27px;
-    padding: 3px 6px;
-    font-size: 10px;
-    gap: 5px;
+/* BOTÃO */
+
+.top-bar .advance-button {
+    padding: 8px 12px;
+    font-size: 11px;
 }
 
-.nav-icon {
+/* BARRA LATERAL */
+
+.side-bar {
+    top: 48px;
+}
+
+/* AJUSTE FINAL DAS BARRAS */
+
+.side-bar {
+    top: 0 !important;
+    bottom: 0;
+    height: 100%;
+}
+
+.top-bar {
+    left: 155px;
+    height: 48px;
+}
+
+/* INFORMAÇÕES DO CLUBE */
+
+.club-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.club-data {
+    justify-content: center;
+}
+
+/* DATA */
+
+.career-info span {
+    display: none;
+}
+
+.career-info strong {
     font-size: 13px;
 }
+
